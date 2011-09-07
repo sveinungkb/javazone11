@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+    	<EditText
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:hint="Input a number" 
+    		android:inputType="numberDecimal"
+    		android:id="@+id/text_number_input"
+    		android:layout_weight="1"/>
+    	<Button android:id="@+id/button_clear" 
+        	android:text="Clear" 
+        	android:layout_height="wrap_content" 
+        	android:layout_width="match_parent"
+        	android:layout_weight="4"/>	
+    </LinearLayout>
+    <LinearLayout 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"
+    	>
+        <Button android:id="@+id/button_add" 
+        	android:text="Add" 
+        	android:layout_height="wrap_content" 
+        	android:layout_width="match_parent"
+        	android:layout_weight="1">
+        </Button>
+        <Button android:id="@+id/button_subtract" 
+        	android:text="Subtract" 
+        	android:layout_height="wrap_content" 
+        	android:layout_width="match_parent"
+        	android:layout_weight="1">
+        </Button>
+        <Button android:id="@+id/button_multiply" 
+        	android:text="Multiply" 
+        	android:layout_height="wrap_content" 
+        	android:layout_width="match_parent"
+        	android:layout_weight="1">
+        </Button>
+        <Button android:id="@+id/button_divide" 
+        	android:text="Divide" 
+        	android:layout_height="wrap_content" 
+        	android:layout_width="match_parent"
+        	android:layout_weight="1">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

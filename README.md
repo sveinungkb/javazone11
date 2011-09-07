@@ -1,0 +1,1 @@
+Automated Android testing using Jenkins CI======Slides at: http://www.slideshare.net/sveinungkb/automated-android-testing-using-jenkins-ci
